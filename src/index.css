@@ -59,7 +59,7 @@ h1 {
 
 .app .bottom {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   text-align: center;
   width: 104%;
   margin: 78px auto;
@@ -85,10 +85,29 @@ h1 {
   }
 
   p {
-    font-size: 19px;
+    font-size: 17px;
   }
   
   h1 {
     font-size: 86px;
+  }
+
+  .app input {
+    text-align: center;
+    padding:10px;
+    font-size: 13px;
+    border-radius: 35px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    background: rgba(187, 151, 7, 0.1);
+  }
+  .app .search {
+    text-align: center;
+    padding: 1rem;
+    width: 10px;
+    font-size: 30px;
+  }
+  .app .bottom {
+    display: flex;
+    justify-content: space-between;
   }
 }
