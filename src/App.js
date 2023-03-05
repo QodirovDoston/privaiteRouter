@@ -53,7 +53,7 @@ const url= `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=
             </div>
             <div className="wind">
               {data.wind ? <p className='bold'>{data.wind.speed.toFixed()} MPH</p> : null}
-              <p>Wind Speed</p>
+              <p>Shamaol tezligi</p>
             </div>
           </div>
         }
